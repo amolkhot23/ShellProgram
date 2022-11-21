@@ -1,0 +1,29 @@
+# this is VI editor
+
+i : inset mode.
+O : insert mode above the line
+o : insert mode Below  the line
+G : end of th line
+a : append after cursor
+nyy  --> np : (n is number)copy line and paste at perticulat position
+yw --> p : copy word and paste it
+cw : change word to get into insert mode
+u : undo change
+U : redo chang
+While search /<word> - > search top-bottom
+While search ?<word> - > search bottom-top
+N : Repeat search reverse
+n : Repeat search
+G : Go to last line
+nG : Go to line n
+:n : Go to line n
+
+%s/error/warn/gci : g-> global, i-> insensetive c->ask y/n
+
+dd or ndd : Delete n lines to general buffer
+D : Delete to end of line
+
+Thas warn
+This has error , warn
+tis his has error
+this has warn
